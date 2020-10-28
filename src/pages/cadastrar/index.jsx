@@ -26,14 +26,14 @@ const Cadastrar = () => {
                             <Form.Control type='email' placeholder='Informe o seu email' required></Form.Control>
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Label>text</Form.Label>
+                            <Form.Label>Senha</Form.Label>
                             <Form.Control type='password' placeholder='Senha' required></Form.Control>
                         </Form.Group>
                         <Button>
                             Enviar
                         </Button>
                         <br/><br/>
-                        <a href="/cadastrar" style={{ marginTop : '30px'}}>Nao tenho conta</a>
+                        <a href="/cadastrar" style={{ marginTop : '30px'}}>Já tenho conta</a>
                         
                     </Form>    
                 </Container>
